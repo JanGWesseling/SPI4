@@ -11,7 +11,7 @@ module Control
 
   dirInput = ""
   dirHDF5 = ""
-  dirMaps=""
+  dirMaps = ""
 
   action = Main.Types.Action(0,0,0)
   mapSize = Main.Types.MapSize(0,0)
@@ -22,7 +22,7 @@ module Control
 
   function readIniFile()
     result = 0
-    fileName = "/media/wesseling/DataDisk/Wesseling/Work/SPI4/Julia/SPI4.ini"
+    fileName = "/media/wesseling/DataDisk/Wesseling/WesW/SPI4/Julia/SPI4.ini"
     df = DateFormat("dd-mm-yyyy")
     if isfile(fileName)
       iniFile = ConfParse(fileName)
